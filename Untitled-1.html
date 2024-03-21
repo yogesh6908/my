@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Sakshi.</strong>
+                        <p>
+                            Just wanted to say sorry for talking rudely that night i know tune bhut hi sweet gesture aur pure intentions ke saath order kiya tha vo mere liye but i took that in the wrong way 😢and also for the day before for ignoring you the whole day and annoying ya purposly👉👈.             i know i am stupid aur thoda sa chutiya bhi , gadha bhi aur bhi bhut kuch princess too and and and and i have never felt something like this before for anyone ❤️❤️❤️❤️ I love ya sakshi i always have and I always will. please forgive me for the stupid things I do i can't loose you😭. .
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
